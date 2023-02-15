@@ -1,0 +1,2 @@
+// Delete all documents that match a query
+db.school.deleteMany({name: {$eq: "Holberton school"}})

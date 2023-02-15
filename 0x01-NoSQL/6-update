@@ -1,0 +1,2 @@
+// Insert new attributes to documents in a collection where name is name="Holberton school"
+db.school.update({name: {$eq: "Holberton school"}}, {$set:{address: "972 Mission street"}}, {multi:true})
